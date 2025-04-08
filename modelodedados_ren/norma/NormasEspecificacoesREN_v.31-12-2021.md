@@ -1,4 +1,4 @@
-![](media/image1.jpg)
+![](media/image2.jpg)
 
 # Reserva Ecológica Nacional
 
@@ -15,7 +15,7 @@ I [Objeto](#i-objeto)
 
 II [Estruturação da Informação Geográfica](#ii-estruturação-da-informação-geográfica)
 
-1. [Catálogo de Objetos da Carta de Delimitação da REN](#catálogo-de-objetos-da-carta-de-delimitação-da-ren)
+1. [Catálogo de Objetos da Carta de Delimitação da REN](#1.-catálogo-de-objetos-da-carta-de-delimitação-da-ren)
 2. [Estrutura da Base de Dados Geográfica](#estrutura-da-base-de-dados-geográfica)
 3. [Boas Práticas na Digitalização e Classificação dos Objetos](#boas-práticas-na-digitalização-e-classificação-dos-objetos)
 
@@ -36,7 +36,7 @@ Anexo IV [Catálogo de simbologia](#anexo-iv---catálogo-de-simbologia)
 
 Anexo V [Códigos da divisão administrativa do Instituto Nacional de Estatística](#anexo-v---códigos-da-divisão-administrativa-do-instituto-nacional-de-estatística)
 
-![](media/image2.jpg)
+![](media/image1.jpg)
 
 # Introdução
 
@@ -384,13 +384,13 @@ exclusão.</td>
 
 ### Tabela CATALOGO
 
-| Nome do campo | Descrição                                                                                                                                                                                                                    | *alias*          | Tipo de *data* |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|----------------|
-| Tema          | Agregação de tipologias de áreas a incluir na REN ou áreas a excluir da REN.                                                                                                                                                 | Tema             | Texto          |
-| Subtema       | Nome da tipologia de área a incluir na REN ou do tipo de exclusão da REN.                                                                                                                                                    | Subtema          | Texto          |
-| NomeObje      | Designação do objeto.                                                                                                                                                                                                        | Nome do Objeto   | Texto          |
-| CodObje       | Código do objeto utilizado no catálogo de objetos. Campo que identifica univocamente cada linha da tabela. [É a chave primária da tabela auxiliar que funciona como chave estrangeira para as tabelas gráficas.]{.underline} | Código do Objeto | Texto          |
-| Legenda       | Texto que identifica o objeto na "Legenda da simbologia" da carta da REN                                                                                                                                                     | Legenda          | Texto          |
+| Nome do campo | Descrição | *alias* | Tipo de *data* |                                                                                                                                                                         
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------|------------------|----------------|
+| Tema          | Agregação de tipologias de áreas a incluir na REN ou áreas a excluir da REN.                                                            | Tema             | Texto          |
+| Subtema       | Nome da tipologia de área a incluir na REN ou do tipo de exclusão da REN.                                                               | Subtema          | Texto          |
+| NomeObje      | Designação do objeto.                                                                                                                   | Nome do Objeto   | Texto          |
+| CodObje       | Código do objeto utilizado no catálogo de objetos. Campo que identifica univocamente cada linha da tabela. <ins>É a chave primária da tabela auxiliar que funciona como chave estrangeira para as tabelas gráficas</ins> | Código do Objeto | Texto          |
+| Legenda       | Texto que identifica o objeto na "Legenda da simbologia" da carta da REN                                                                | Legenda          | Texto          |
 
 ### Tabela DTCC_TIP_L
 
@@ -482,20 +482,16 @@ exclusão.</td>
 <tbody>
 <tr class="odd">
 <td>Quando os objetos de geometria polígono/linha têm continuidade para além do limite administrativo do município, devem ser “artificialmente fechados”/“interrompidos” nos exatos limites que são definidos pela CAOP.</td>
-<td><p><img src="media/image5.png" /></p>
-<p><img src="media/image6.png" /></p>
-<p><img src="media/image7.png" /></p></td>
+<td><p><img src="media/Obj001.png" /></p></td>
 </tr>
 <tr class="even">
 <td>Deve haver continuidade entre os objetos de geometria linha.</td>
-<td><img src="media/image8.png" /></td>
+<td><img src="media/Obj002.png" /></td>
 </tr>
 <tr class="odd">
 <td>O objeto de geometria linha é interrompido quando existe uma
 interseção com outro objeto de geometria linha ou polígono.</td>
-<td><p><img src="media/image9.png" /></p>
-<p><img src="media/image10.png" /></p>
-<p><img src="media/image11.png" /></p></td>
+<td><p><img src="media/Obj003.png" /></p></td>
 </tr>
 </tbody>
 </table>
@@ -515,31 +511,12 @@ interseção com outro objeto de geometria linha ou polígono.</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Corrigir conexões ausentes devido a <em>undershoots ou
-overshoots</em></td>
-<td><p><img src="media/image12.png" /></p>
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="media/image13.png"
-style="width:0.77905in;height:0.66365in" /></th>
-<th><img src="media/image14.png"
-style="width:0.77201in;height:0.69723in" /></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
+<td>Corrigir conexões ausentes devido a <em>undershoots ou overshoots</em></td>
+<td><p><img src="media/Obj004.png" /></p></td>
 </tr>
 <tr class="even">
 <td>A linha que separa polígonos adjacentes deve ser a mesma</td>
-<td><p><img src="media/image15.png" /></p>
-<p><img src="media/image16.png" /></p>
-<p><img src="media/image17.png" /></p></td>
+<td><p><img src="media/Obj005.png" /></p></td>
 </tr>
 </tbody>
 </table>
@@ -559,25 +536,12 @@ style="width:0.77201in;height:0.69723in" /></th>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Classificar todos os poligonos conforme previsto no catálogo de
-objetos do Anexo I.</td>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="media/image18.png" /><img src="media/image19.png" /></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
+<td>Classificar todos os poligonos conforme previsto no catálogo de objetos do Anexo I.</td>
+<td><img src="media/Obj006.png" /></td>
 </tr>
 <tr class="even">
 <td>Polígonos adjacentes com a mesma tipologia devem ser fundidos.</td>
-<td><p><img src="media/image20.png" /></p>
-<p><img src="media/image21.png" /></p></td>
+<td><p><img src="media/Obj007.png" /></p></td>
 </tr>
 </tbody>
 </table>
