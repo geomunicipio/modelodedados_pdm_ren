@@ -11,15 +11,15 @@
 
 [Introdução](#introdução)
 
-I. [Objeto](#i-objeto)
+I [Objeto](#i-objeto)
 
-II. [Estruturação da Informação Geográfica](#ii-estruturação-da-informação-geográfica)
+II [Estruturação da Informação Geográfica](#ii-estruturação-da-informação-geográfica)
 
 1. [Catálogo de Objetos da Carta de Delimitação da REN](#catálogo-de-objetos-da-carta-de-delimitação-da-ren)
 2. [Estrutura da Base de Dados Geográfica](#estrutura-da-base-de-dados-geográfica)
 3. [Boas Práticas na Digitalização e Classificação dos Objetos](#boas-práticas-na-digitalização-e-classificação-dos-objetos)
 
-III. [Composição Gráfica](#iii.-composição-gráfica)
+III [Composição Gráfica](#iii.-composição-gráfica)
  1. [Regras Gerais para a Reprodução em Formato Imagem](#regras-gerais-para-a-reprodução-em-formato-imagem)
  2. [Legendas](#legendas)
  3. [Catálogo de Simbologia](#catálogo-de-simbologia)
@@ -49,7 +49,9 @@ Entre as diretrizes estabelecidas nas OENR, destaca-se a que determina a disponi
 As normas e especificações técnicas que a seguir se apresentam têm como objetivo harmonizar e estruturar a informação vetorial das cartas de delimitação da REN muncipal. Visam, ainda, estabelecer regras para a reprodução da carta em formato matricial que deve ser submetida na plataforma do Sistema de Submissão Automática dos Instrumentos de Gestão Territorial para efeitos de publicação no Diário da República e depósito na DGT. São compostas por 3 partes:
 
 1.  Tendo como base de partida o conteúdo da carta da REN e as diretrizes para a sua delimitação previstos no RJREN e nas OENR, os princípios e normas para a produção cartográfica no território nacional previstos no Decreto-Lei n.º 193/95, de 28 de julho, na redação do Decreto-Lei n.º 130/2019, de 30 de agosto, bem como os conceitos técnicos atualizados nos domínios do ordenamento do território e do urbanismo fixados pelo Decreto Regulamentar n.º 5/2019, de 27 de setembro, foram estabelecidos, para efeitos da aplicação destas normas e especificações técnicas, os conceitos de "carta base" e de "carta de delimitação da REN", bem como os requisitos aplicados a cada uma.
+
 2. Devendo a informação da REN ser fornecida em suporte digital e formato vetorial tendo em vista a sua integração em sistemas de informação geográfica nacionais e regionais (diretriz 13 das OENR), foi desenvolvido um modelo de estruturação da informação gráfica e alfanumérica que integra o catálogo de objetos da carta de delimitação da REN, a estrutura da base de dados geográfica e um conjunto de boas práticas a utilizar na representação dos objetos.
+ 
 3. Para a reprodução da carta de delimitação da REN em formato imagem, foram definidas as regras gerais a observar na preparação de composições gráficas e na elaboração de legendas e foi desenvolvida, a título de orientação, um catálogo com a simbologia e convenções gráficas a utilizar.
 
 O trabalho de produção destas normas e especificações técnicas foi desenvolvido na Direção-Geral do Território, concretamente na Direção de Serviços do Ordenamento do Território e teve a colaboração dos membros do Grupo de Trabalho da REN.
@@ -61,24 +63,33 @@ O trabalho de produção destas normas e especificações técnicas foi desenvol
 2.  A **carta base da REN** é a carta obtida a partir da cartografia de base, oficial ou homologada, por seleção da informação relevante para a elaboração da carta de delimitação da REN.
 
 3.  São **requisitos da carta base** as seguintes:
+
     1.  A carta base é obtida a partir de cartografia topográfica vetorial (que deve ter como conteúdo mínimo informação oro-hidrográfica tridimensional, redes rodoviária e ferroviária, construções e informação toponímica), sem prejuízo de poder ser utilizada cartografia topográfica de imagem (ou ortofotocartografia) desde que a mesma seja completada por informação vetorial oro-hidrográfica tridimensional, redes rodoviária e ferroviária e informação toponímica, consistente com a imagem do ponto de vista espacial e temporal.
     2.  A exatidão posicional planimétrica da cartografia de base deve ser melhor ou igual que 5 metros e a exatidão temática deve ser melhor ou igual que 95%.
     3.  A exatidão posicional e temática da carta base é igual à exatidão posicional e temática da cartografia de base da qual foi derivada.
     4.  A carta base é elaborada no sistema de georreferência PT-TM06/ETRS89.
 
 4.  Os **requisitos da carta de delimitação da REN** municipal são as seguintes:
+
     1.  A carta de delimitação da REN é elaborada em suporte digital e formato vetorial.
+
     2.  A carta de delimitação da REN abrange integralmente o território municipal definido pela Carta Administrativa Oficial de Portugal (CAOP) publicada pela DGT e disponível no respetivo sítio da Internet, devendo ser utilizada:
+
         1. a edição da CAOP disponível à data que determina a elaboração, revisão ou alteração de planos territoriais, quando a REN é delimitada no âmbito destes planos (Artigo 15º do RJREN).
         2. a edição da CAOP disponível à data em que a câmara municipal apresenta a proposta de delimitação da REN à CCDR (artigo 11º do RJREN), quando a REN não é delimitada no âmbito de planos territoriais.
+
     3.  Para além da delimitação municipal da REN e sempre que se justifique, podem ser efetuadas delimitações de pormenor (por exemplo área abrangida por um plano de urbanização ou pormenor, por um projeto ou por uma ou mais exclusões da REN).
-    4.  A exatidão posicional e temática da carta de delimitação da REN municipal é igual à utilizada na carta base, sendo que uma delimitação de pormenor recorre a cartografia de base de maior detalhe[^1] e de maior exatidão posicional e temática.
+
+    4.  A exatidão posicional e temática da carta de delimitação da REN municipal é igual à utilizada na carta base, sendo que uma delimitação de pormenor recorre a cartografia de base de maior detalhe (maior detalhe significa ter mais informação) e de maior exatidão posicional e temática.
+
     5.  A carta de delimitação da REN utiliza o sistema de georreferência PT-TM06/ETRS89.
+
     6.  A informação gráfica e alfanumérica da carta de delimitação da REN é estruturada de acordo com um modelo composto pelo catálogo de objetos e a base de dados geográfica.
 
 # II Estruturação da Informação Geográfica
 
 ## 1. Catálogo de Objetos da Carta de Delimitação da REN
+
 5.  As áreas a incluir na REN e as áreas a excluir da REN constituem as entidades a representar em cada carta de delimitação de REN municipal.
 
 6.  A integração de áreas na REN deve ser feita de acordo com 19 tipologias, agregadas em 3 categorias, conforme se tratem de Áreas de proteção do litoral, Áreas relevantes para a sustentabilidade do ciclo hidrológico terrestre ou Áreas de prevenção de riscos naturais. A desagregação de cada uma das 19 tipologias nos seus elementos constituintes resultou na identificação de 36 entidades passíveis de representação.
@@ -88,12 +99,17 @@ O trabalho de produção destas normas e especificações técnicas foi desenvol
 8.  No Anexo I é apresentado o **Catálogo de objetos da Carta de delimitação da REN** onde cada entidade é representada virtualmente por um objeto, identificado pelo:
 
     1. Tema: agregação de tipologias de áreas a incluir na REN ou áreas a excluir da REN, conforme estipulado no RJREN;
+
     2. Subtema: nome da tipologia de área a incluir na REN ou do tipo de exclusão da REN, conforme estipulado no RJREN;
+
     3. Nome do Objeto: designação do objeto;
+
     4. Código do Objeto: identificação unívoca de cada objeto;
+
     5. Legenda: texto que identifica o objeto na Legenda da simbologia da carta de delimitação da REN.
 
 ## 2. Estrutura da Base de Dados Geográfica
+
 9.  Todos os objetos do catálogo de objetos da carta da REN possuem
     geometria que pode ser representada por uma das primitivas
     geométricas: linha ou polígono.
@@ -119,241 +135,135 @@ O trabalho de produção destas normas e especificações técnicas foi desenvol
     objetos com geometria linear, exclusões e detalhes da delimitação
     municipal, sendo possíveis as seguintes situações:
 
-    1.  Quando os objetos da carta de delimitação da REN municipal
-        possuem geometria linear e poligonal, a base de dados é
-        constituída pelas tabelas seguintes e apresenta as relações
-        ilustradas no Anexo II B:
+    1. Quando os objetos da carta de delimitação da REN municipal possuem geometria linear e poligonal, a base de dados é constituída pelas tabelas seguintes e apresenta as relações ilustradas no Anexo II B:
 
-- CATALOGO;
+        - CATALOGO;
+        - DTCC_TIP_L
+        - DTCC_TIP_P
+        - DTCC_EXCL_P
+        - DTCC_EXCL_TIP
 
-- DTCC_TIP_L
+    2. Se a delimitação de REN municipal prevista no ponto anterior for acompanhada de detalhes, acrescenta-se à BD referida na alínea a)  as seguintes tabelas:
 
-- DTCC_TIP_P
+        - DTCC_DET_TIP_L
+        - DTCC_DET_TIP_P
+        - DTCC_DET_EXCL_P
+        - DTCC_DET_EXCL_TIP
 
-- DTCC_EXCL_P
+    3.  Caso não existam objetos do tipo linear, as BD referidas nas alíneas a) e b) não incluem as tabelas:
 
-- DTCC_EXCL_TIP.
+        - DTCC_TIP_L
+        - DTCC_DET_TIP_L
 
-  1.  Se a delimitação de REN municipal prevista no ponto anterior for
-      acompanhada de detalhes, acrescenta-se à BD referida na alínea a)
-      as seguintes tabelas:
+    4.  Caso a delimitação de REN não possua exclusões, as BD referidas na alínea a) e b) não incluem as tabelas:
 
-<!-- -->
+        - DTCC_EXCL_P;
+        - DTCC_EXC_TIP;
+        - DTCC_DET_EXCL_P;
+        - DTCC_DET_EXCL_TIP
 
-- DTCC_DET_TIP_L;
+15. Na designação das tabelas, o município é identificado através do Código da divisão administrativa (distrito/município) do INE (ver tabela do Anexo V).
 
-- DTCC_DET_TIP_P;
+## 3. Boas Práticas na Digitalização e Classificação dos Objetos
 
-- DTCC_DET_EXCL_P;
+16. A digitalização e classificação dos objetos obedece a boas práticas, nomeadamente as previstas no Anexo III A.
 
-- DTCC_DET_EXCL_TIP.
+# III. Composição Gráfica
 
-  1.  Caso não existam objetos do tipo linear, as BD referidas nas
-      alíneas a) e b) não incluem as tabelas:
+## 1. Regras Gerais para a Reprodução em Formato Imagem
 
-<!-- -->
+17. Para efeitos de reprodução da carta de delimitação da REN em formato imagem deve ser preparada uma composição gráfica contendo os seguintes elementos:
 
-- DTCC_TIP_L
+    1. informação geográfica contendo os objetos do catálogo, a informação da carta base e o limite do município
 
-- DTCC_DET_TIP_L.
+    2. coordenadas do sistema de referência
 
-  1.  Caso a delimitação de REN não possua exclusões, as BD referidas na
-      alínea a) e b) não incluem as tabelas:
+    3. esquema de seccionamento da carta, caso se revele necessário, por razões de manuseamento da informação;
 
-<!-- -->
+    4. legenda, a qual é composta pela "legenda rótulo", onde são apresentadas as indicações necessárias à identificação da carta e a "legenda da simbologia", que permite descodificar os símbolos representados na carta, sendo que todas as folhas da carta deverão apresentar a mesma legenda.
 
-- DTCC_EXCL_P;
+18. A representação da informação geográfica obedece às seguintes **regras de hierarquia**:
 
-- DTCC_EXC_TIP;
+    1. O "Limite do município" e a "Toponímia" (da carta base), sobrepõem-se a todos os objetos do catálogo de objetos e restante informação da carta base;
 
-- DTCC_DET_EXCL_P;
+    2. As Áreas de exclusão (códigos 37 e 38) sobrepõem-se a todos os objetos que representam as áreas incluídas em REN (códigos 1 a 36) e são identificadas por textos (campo "Exclusão" das tabelas da base de dados) que são colocados de forma a não prejudicar a leitura dos restantes objetos nem a sua identificação;
 
-- DTCC_DET_EXCL_TIP
+    3. Quando existentes, os objetos com geometria linear (códigos 21 e 22), sobrepõem-se aos objetos com geometria poligonal que representam as áreas incluidas em REN (códigos 1 a 36);
 
-14. Na designação das tabelas, o município é identificado através do
-    Código da divisão administrativa (distrito/município) do INE (ver
-    tabela do Anexo V).
+    4. Os objetos com geometria poligonal que representam as áreas incluídas em REN e apresentam cor opaca estão subpostos a todos os que apresentam padrões;
 
-## 3. Boas Práticas na Digitalização e Classificação dos Objetos {#boas-práticas-na-digitalização-e-classificação-dos-objetos}
+    5. Os objetos com geometria poligonal que representam as áreas incluídas em REN que apresentam padrões menos densos sobrepõem-se aos que apresentam padrões mais densos;
 
-15. A digitalização e classificação dos objetos obedece a boas práticas,
-    nomeadamente as previstas no Anexo III A.
+    6. Com exceção do "Limite do município" e da "Toponímia", toda a restante informação da carta base é subposta aos objetos do Catálogo de objetos e representada numa tonalidade que não prejudique a leitura da carta, devendo contudo ser vísível.
 
-# III. Composição Gráfica {#iii.-composição-gráfica}
+## 2. Legendas
 
-## 1. Regras Gerais para a Reprodução em Formato Imagem {#regras-gerais-para-a-reprodução-em-formato-imagem}
+19. A **legenda rótulo** deve localizar-se no canto inferior direito da carta e conter a seguinte informação:
 
-16. Para efeitos de reprodução da carta de delimitação da REN em formato
-    imagem deve ser preparada uma composição gráfica contendo os
-    seguintes elementos:
+    1. Designação da carta (municipal ou pormenorização);
 
-<!-- -->
+    2. Data de edição;
 
-a)  informação geográfica contendo os objetos do catálogo, a informação
-    da carta base e o limite do município;
+    3. Indicação da escala de representação (gráfica e numérica), quando se pretende a reprodução em suporte analógico;
 
-b)  coordenadas do sistema de referência;
 
-c)  esquema de seccionamento da carta, caso se revele necessário, por
-    razões de manuseamento da informação;
+    4. Identificação da entidade pública responsável pela carta;
 
-d)  legenda, a qual é composta pela "legenda rótulo", onde são
-    apresentadas as indicações necessárias à identificação da carta e a
-    "legenda da simbologia", que permite descodificar os símbolos
-    representados na carta, sendo que todas as folhas da carta deverão
-    apresentar a mesma legenda.
+    5. Identificação da cartografia de base utilizada na elaboração da carta base, conforme especificado nos parágrafos seguintes.
 
-<!-- -->
+    6. Esquema de seccionamento e número da folha, caso a carta seja seccionada em folhas
 
-17. A representação da informação geográfica obedece às seguintes
-    **regras de hierarquia**:
+20. Na identificação da cartografia vetorial que foi utilizada na elaboração da carta base (cartografia topográfica vetorial ou informação vetorial que complementa o ortofotomapa), deve ser referida, designadamente:
 
-<!-- -->
+    1. a série cartográfica, a entidade proprietária e a data de edição se a cartografia é oficial;
 
-a)  O "Limite do município" e a "Toponímia" (da carta base),
-    sobrepõem-se a todos os objetos do catálogo de objetos e restante
-    informação da carta base;
+    2. a entidade proprietária, a data de homologação, o número de processo de homologação e a entidade por ela responsável, se a cartografia é homologada;
 
-b)  As Áreas de exclusão (códigos 37 e 38) sobrepõem-se a todos os
-    objetos que representam as áreas incluídas em REN (códigos 1 a 36) e
-    são identificadas por textos (campo "Exclusão" das tabelas da base
-    de dados) que são colocados de forma a não prejudicar a leitura dos
-    restantes objetos nem a sua identificação;
+    3. a versão da CAOP utilizada e o ano a que se reporta;
 
-c)  Quando existentes, os objetos com geometria linear (códigos 21 e
-    22), sobrepõem-se aos objetos com geometria poligonal que
-    representam as áreas incluidas em REN (códigos 1 a 36);
+    4. o sistema de georreferência;
 
-d)  Os objetos com geometria poligonal que representam as áreas
-    incluídas em REN e apresentam cor opaca estão subpostos a todos os
-    que apresentam padrões;
+    5. a exatidão posicional planimétrica e altimétrica e a exatidão temática, de acordo com as especificações técnicas da cartografia utilizada.
 
-e)  Os objetos com geometria poligonal que representam as áreas
-    incluídas em REN que apresentam padrões menos densos sobrepõem-se
-    aos que apresentam padrões mais densos;
+21. Na identificação da cartografia topográfica de imagem que foi utilizada na elaboração da carta base, deve ser referida, designadamente:
 
-f)  Com exceção do "Limite do município" e da "Toponímia", toda a
-    restante informação da carta base é subposta aos objetos do Catálogo
-    de objetos e representada numa tonalidade que não prejudique a
-    leitura da carta, devendo contudo ser vísível.
+    1. a série cartográfica, a entidade proprietária e a data de edição se a cartografia é oficial;
 
-## 2. Legendas {#legendas}
+    2. a entidade proprietária, a data de homologação, o número de processo de homologação e a entidade por ela responsável, se a cartografia é homologada;
 
-18. A **legenda rótulo** deve localizar-se no canto inferior direito da
-    carta e conter a seguinte informação:
+    3. o sistema de georreferência;
 
-<!-- -->
+    4. a exatidão posicional planimétrica, de acordo com as especificações técnicas da cartografia utilizada.
 
-a)  Designação da carta (municipal ou pormenorização);
+22. A **legenda da simbologia** deve localizar-se nas margens da carta, inferior (à esquerda da legenda rótulo) ou direita (acima da legenda rótulo), e conter todos os símbolos utilizados na carta, organizados e designados conforme especificado no campo Legenda do Catálogo de objetos.
 
-b)  Data de edição;
+## 3. Catálogo de Simbologia
 
-c)  Indicação da escala de representação (gráfica e numérica), quando se
-    pretende a reprodução em suporte analógico;
+23. No Anexo IV é apresentado o **Catálogo de simbologia** contendo as características gráficas dos objetos.
 
-d)  Identificação da entidade pública responsável pela carta;
+24. O Catálogo de simbologia foi desenvolvido para a reprodução à escala 1:10000 e a cores.
 
-e)  Identificação da cartografia de base utilizada na elaboração da
-    carta base, conforme especificado nos parágrafos seguintes.
+25. O Catálogo de simbologia indica para cada objeto:
 
-f)  Esquema de seccionamento e número da folha, caso a carta seja
-    seccionada em folhas
+    1. Código do Objeto: identificação unívoca de cada objeto do Catálogo de simbologia;
 
-<!-- -->
+    2. Nome do Objeto: designação do objeto;
 
-19. Na identificação da cartografia vetorial que foi utilizada na
-    elaboração da carta base (cartografia topográfica vetorial ou
-    informação vetorial que complementa o ortofotomapa), deve ser
-    referida, designadamente:
+    3. Legenda: texto que identifica o objeto na "Legenda da simbologia" da carta da REN.
 
-<!-- -->
+    4. Geometria: geometria do objeto
 
-a)  a série cartográfica, a entidade proprietária e a data de edição se
-    a cartografia é oficial;
+    5. Estilo de contorno/traço: estilo da linha que delimita os objetos de geometria polígono ou estilo do traço dos objetos de gometria linha;
 
-b)  a entidade proprietária, a data de homologação, o número de processo
-    de homologação e a entidade por ela responsável, se a cartografia é
-    homologada;
+    6. Espessura de contorno/traço: espessura da linha que delimita os objetos de geometria polígono ou espessura do traço dos objetos de geometria linha. A unidade de medida utilizada é o milímetro (mm);
 
-c)  a versão da CAOP utilizada e o ano a que se reporta;
+    7. Cor do contorno/traço: cor no sistema RGB (*Red, Green, Blue*) da linha que delimita os objetos de geometria polígono ou do traço dos objetos de geometria linha;
 
-d)  o sistema de georreferência;
+    8. Preenchimento: preenchimento dos objetos de geometria poligono com um padrão sobre um fundo, cor opaca (ou sólida) ou 100% transparente, podendo ainda conter ou não texto
 
-e)  a exatidão posicional planimétrica e altimétrica e a exatidão
-    temática, de acordo com as especificações técnicas da cartografia
-    utilizada.
+    9. Especificações do padrão/simbolo/texto/contorno: especificação para construção do simbolo.
 
-<!-- -->
-
-20. Na identificação da cartografia topográfica de imagem que foi
-    utilizada na elaboração da carta base, deve ser referida,
-    designadamente:
-
-<!-- -->
-
-a)  a série cartográfica, a entidade proprietária e a data de edição se
-    a cartografia é oficial;
-
-b)  a entidade proprietária, a data de homologação, o número de processo
-    de homologação e a entidade por ela responsável, se a cartografia é
-    homologada;
-
-c)  o sistema de georreferência;
-
-d)  a exatidão posicional planimétrica, de acordo com as especificações
-    técnicas da cartografia utilizada.
-
-<!-- -->
-
-21. A **legenda da simbologia** deve localizar-se nas margens da carta,
-    inferior (à esquerda da legenda rótulo) ou direita (acima da legenda
-    rótulo), e conter todos os símbolos utilizados na carta, organizados
-    e designados conforme especificado no campo Legenda do Catálogo de
-    objetos.
-
-## 3. Catálogo de Simbologia {#catálogo-de-simbologia}
-
-22. No Anexo IV é apresentado o **Catálogo de simbologia** contendo as
-    características gráficas dos objetos.
-
-23. O Catálogo de simbologia foi desenvolvido para a reprodução à escala
-    1:10000 e a cores.
-
-24. O Catálogo de simbologia indica para cada objeto:
-
-<!-- -->
-
-a)  Código do Objeto: identificação unívoca de cada objeto do Catálogo
-    > de simbologia;
-
-b)  Nome do Objeto: designação do objeto;
-
-c)  Legenda: texto que identifica o objeto na "Legenda da simbologia" da
-    > carta da REN.
-
-d)  Geometria: geometria do objeto
-
-e)  Estilo de contorno/traço: estilo da linha que delimita os objetos de
-    > geometria polígono ou estilo do traço dos objetos de gometria
-    > linha;
-
-f)  Espessura de contorno/traço: espessura da linha que delimita os
-    > objetos de geometria polígono ou espessura do traço dos objetos de
-    > geometria linha. A unidade de medida utilizada é o milímetro (mm);
-
-g)  Cor do contorno/traço: cor no sistema RGB (*Red, Green, Blue*) da
-    > linha que delimita os objetos de geometria polígono ou do traço
-    > dos objetos de geometria linha;
-
-h)  Preenchimento: preenchimento dos objetos de geometria poligono com
-    > um padrão sobre um fundo, cor opaca (ou sólida) ou 100%
-    > transparente, podendo ainda conter ou não texto
-
-i)  Especificações do padrão/simbolo/texto/contorno: especificação para
-    > construção do simbolo.
-
-j)  Simbolo: imagem, sem escala, que ilustra a simbologia a ser
-    > utilizada para representar cada objeto.
+    10. Simbolo: imagem, sem escala, que ilustra a simbologia a ser utilizada para representar cada objeto.
 
 # Anexo I: Catálogo de objetos da carta de delimitação da REN
 
@@ -400,7 +310,7 @@ j)  Simbolo: imagem, sem escala, que ilustra a simbologia a ser
 
 # Anexo II A - Tabelas que integram a base de dados
 
-[Tipos de tabelas que a BD da REN pode integrar]{.underline}
+<ins>Tipos de tabelas que a BD da REN pode integrar</ins>
 
 <table>
 <colgroup>
@@ -462,18 +372,17 @@ exclusão.</td>
 </tbody>
 </table>
 
-[Descrição dos campos das tabelas:]{.underline}
+<ins>Descrição dos campos das tabelas</ins>
 
-- Nome do campo -- Nome do campo da tabela que é visualizado pelo
-  utilizador;
+- Nome do campo - Nome do campo da tabela que é visualizado pelo utilizador;
 
-- Descrição -- descrição do conteúdo do campo da tabela;
+- Descrição - descrição do conteúdo do campo da tabela;
 
-- *alias --* Nome do campo da tabela na base de dados;
+- *alias* - Nome do campo da tabela na base de dados;
 
-- Tipo de *data --* tipo de dados do campo da tabela.
+- Tipo de *data* - tipo de dados do campo da tabela.
 
-> Tabela CATALOGO
+### Tabela CATALOGO
 
 | Nome do campo | Descrição                                                                                                                                                                                                                    | *alias*          | Tipo de *data* |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|----------------|
@@ -483,7 +392,7 @@ exclusão.</td>
 | CodObje       | Código do objeto utilizado no catálogo de objetos. Campo que identifica univocamente cada linha da tabela. [É a chave primária da tabela auxiliar que funciona como chave estrangeira para as tabelas gráficas.]{.underline} | Código do Objeto | Texto          |
 | Legenda       | Texto que identifica o objeto na "Legenda da simbologia" da carta da REN                                                                                                                                                     | Legenda          | Texto          |
 
-Tabela DTCC_TIP_L
+### Tabela DTCC_TIP_L
 
 | Nome do campo | Descrição                                                                                                                | *alias*          | Tipo de *data*    |
 |---------------|--------------------------------------------------------------------------------------------------------------------------|------------------|-------------------|
@@ -491,7 +400,7 @@ Tabela DTCC_TIP_L
 | CodObje       | Código do objeto utilizado no catálogo de objetos (códigos 21 e 22). [É a chave primária da tabela gráfica]{.underline}. | Código do Objeto | Texto             |
 | Comp_m        | Distância entre o ponto inicial e o final medida em metros.                                                              | Comprimento (m)  | Número            |
 
-Tabela DTCC_DET_TIP_L
+### Tabela DTCC_DET_TIP_L
 
 | Nome do campo | Descrição                                                                                                                | *alias*                 | Tipo de *data*    |
 |---------------|--------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------|
@@ -499,7 +408,7 @@ Tabela DTCC_DET_TIP_L
 | CodObje       | Código do objeto utilizado no catálogo de objetos (códigos 21 e 22). [É a chave primária da tabela gráfica]{.underline}. | Código do Objeto        | Texto             |
 | Comp_m        | Distância entre o ponto inicial e o final medida em metros.                                                              | Comprimento (m)         | Número            |
 
-Tabela DTCC_TIP_P
+### Tabela DTCC_TIP_P
 
 | Nome do campo | Descrição                                                                                                               | *alias*          | Tipo de *data*    |
 |---------------|-------------------------------------------------------------------------------------------------------------------------|------------------|-------------------|
@@ -507,7 +416,7 @@ Tabela DTCC_TIP_P
 | CodObje       | Código do objeto utilizado no catálogo de objetos (códigos 1 a 36). [É a chave primária da tabela gráfica]{.underline}. | Código do Objeto | Texto             |
 | Area_m2       | Medida da superfície do polígono em metros quadrados.                                                                   | Área (m2)        | Número            |
 
-Tabela DTCC_DET_TIP_P
+### Tabela DTCC_DET_TIP_P
 
 | Nome do campo | Descrição                                                                                                               | *alias*                 | Tipo de *data*    |
 |---------------|-------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------|
@@ -515,7 +424,7 @@ Tabela DTCC_DET_TIP_P
 | CodObje       | Código do objeto utilizado no catálogo de objetos (códigos 1 a 36). [É a chave primária da tabela gráfica]{.underline}. | Código do Objeto        | Texto             |
 | Area_m2       | Medida da superfície do polígono em metros quadrados.                                                                   | Área (m2)               | Número            |
 
-Tabela DTCC_EXCL_P
+### Tabela DTCC_EXCL_P
 
 | Nome do campo | Descrição                                                                                                                   | *alias*              | Tipo de *data*           |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------------|
@@ -526,7 +435,7 @@ Tabela DTCC_EXCL_P
 | Fundamento    | Fundamentação da necessidade de exclusão.                                                                                   | Fundamentação        | Texto                    |
 | FimDest       | Fim a que se destina a area a excluir.                                                                                      | Fim a que se destina | Texto                    |
 
-Tabela DTCC_DET_EXCL_P
+### Tabela DTCC_DET_EXCL_P
 
 | Nome do campo | Descrição                                                                                                                   | *alias*                | Tipo de *data*           |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------|------------------------|--------------------------|
@@ -535,7 +444,7 @@ Tabela DTCC_DET_EXCL_P
 | CodObje       | Código do objeto utilizado no catálogo de objetos (códigos 37 e 38). [É a chave primária da tabela secundária]{.underline}. | Código do Objeto       | Texto                    |
 | Area_m2       | Medida da superfície do polígono em metros quadrados.                                                                       | Superfície (m2)        | Número                   |
 
-Tabela DTCC_EXCL_TIP
+### Tabela DTCC_EXCL_TIP
 
 | Nome do campo | Descrição                                                                                    | *alias*                 | Tipo de *data*    |
 |---------------|----------------------------------------------------------------------------------------------|-------------------------|-------------------|
@@ -543,7 +452,7 @@ Tabela DTCC_EXCL_TIP
 | ID_Tip_P      | Campo de numeração automática da tabela DTCC_TIPOLOGIAS_POLIGONOS                            | ID_Tipologias_P         | Número            |
 | ID_Excl_P     | Campo de numeração automática da tabela DTCC_EXCLUSOES_POLIGONOS                             | ID_Exclusoes_P          | Número            |
 
-Tabela DTCC_DET_EXCL_TIP
+### Tabela DTCC_DET_EXCL_TIP
 
 | Nome do campo | Descrição                                                                                    | *alias*                 | Tipo de *data*    |
 |---------------|----------------------------------------------------------------------------------------------|-------------------------|-------------------|
@@ -553,10 +462,9 @@ Tabela DTCC_DET_EXCL_TIP
 
 # Anexo II B - Base de dados relacional
 
-![](media/image3.png){width="10.38333552055993in"
-height="4.942066929133858in"}
+![](media/image4.png)
 
-# Anexo III -- Boas práticas na digitalização e classificação dos objetos {#anexo-iii-boas-práticas-na-digitalização-e-classificação-dos-objetos}
+# Anexo III -- Boas práticas na digitalização e classificação dos objetos
 
 ### Representação
 
@@ -573,10 +481,7 @@ height="4.942066929133858in"}
 </thead>
 <tbody>
 <tr class="odd">
-<td>Quando os objetos de geometria polígono/linha têm continuidade para
-além do limite administrativo do município, devem ser “artificialmente
-fechados”/“interrompidos” nos exatos limites que são definidos pela
-CAOP.</td>
+<td>Quando os objetos de geometria polígono/linha têm continuidade para além do limite administrativo do município, devem ser “artificialmente fechados”/“interrompidos” nos exatos limites que são definidos pela CAOP.</td>
 <td><p><img src="media/image5.png" /></p>
 <p><img src="media/image6.png" /></p>
 <p><img src="media/image7.png" /></p></td>
@@ -1558,5 +1463,3 @@ geometria linha**
 | Viseu                       | 1823       |
 | Vizela                      | 0314       |
 | Vouzela                     | 1824       |
-
-[^1]: Maior detalhe significa ter mais informação.
