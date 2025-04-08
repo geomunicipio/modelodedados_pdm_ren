@@ -1,245 +1,99 @@
-![](media/image2.jpg){width="8.266665573053368in"
-height="11.696201881014874in"}
+![](media/image1.jpg)
 
-**Reserva Ecológica Nacional**
+# Reserva Ecológica Nacional
 
-**Norma Técnica para a Produção e Reprodução das Cartas de Delimitação
-da REN**
+## Norma Técnica para a Produção e Reprodução das Cartas de Delimitação da REN
 
-**Versão 31-12-2021**
+### Versão 31-12-2021
 
 # Índice
+[Índice](#índice)
 
-[Índice [1](#índice)](#índice)
+[Introdução](#introdução)
 
-[Introdução [2](#introdução)](#introdução)
+I. [Objeto](#i-objeto)
 
-[I. Objeto [3](#i.-objeto)](#i.-objeto)
+II. [Estruturação da Informação Geográfica](#ii-estruturação-da-informação-geográfica)
 
-[II Estruturação da Informação Geográfica
-[4](#ii-estruturação-da-informação-geográfica)](#ii-estruturação-da-informação-geográfica)
+1. [Catálogo de Objetos da Carta de Delimitação da REN](#catálogo-de-objetos-da-carta-de-delimitação-da-ren)
+2. [Estrutura da Base de Dados Geográfica](#estrutura-da-base-de-dados-geográfica)
+3. [Boas Práticas na Digitalização e Classificação dos Objetos](#boas-práticas-na-digitalização-e-classificação-dos-objetos)
 
-[1. Catálogo de Objetos da Carta de Delimitação da REN
-[4](#catálogo-de-objetos-da-carta-de-delimitação-da-ren)](#catálogo-de-objetos-da-carta-de-delimitação-da-ren)
+III. [Composição Gráfica](#iii.-composição-gráfica)
+ 1. [Regras Gerais para a Reprodução em Formato Imagem](#regras-gerais-para-a-reprodução-em-formato-imagem)
+ 2. [Legendas](#legendas)
+ 3. [Catálogo de Simbologia](#catálogo-de-simbologia)
 
-[2. Estrutura da Base de Dados Geográfica
-[5](#estrutura-da-base-de-dados-geográfica)](#estrutura-da-base-de-dados-geográfica)
+Anexo I [Catálogo de objetos da carta de delimitação da REN](#anexo-i-catálogo-de-objetos-da-carta-de-delimitação-da-ren)
 
-[3. Boas Práticas na Digitalização e Classificação dos Objetos
-[6](#boas-práticas-na-digitalização-e-classificação-dos-objetos)](#boas-práticas-na-digitalização-e-classificação-dos-objetos)
+Anexo II A [Tabelas que integram a base de dados](#anexo-ii-a---tabelas-que-integram-a-base-de-dados)
 
-[III. Composição Gráfica
-[7](#iii.-composição-gráfica)](#iii.-composição-gráfica)
+Anexo II B [Base de dados relacional](#anexo-ii-b---base-de-dados-relacional)
 
-[1. Regras Gerais para a Reprodução em Formato Imagem
-[7](#regras-gerais-para-a-reprodução-em-formato-imagem)](#regras-gerais-para-a-reprodução-em-formato-imagem)
+Anexo III [Boas práticas na digitalização e classificação dos objetos](#anexo-iii-boas-práticas-na-digitalização-e-classificação-dos-objetos)
 
-[2. Legendas [8](#legendas)](#legendas)
+Anexo IV [Catálogo de simbologia](#anexo-iv---catálogo-de-simbologia)
 
-[3. Catálogo de Simbologia
-[9](#catálogo-de-simbologia)](#catálogo-de-simbologia)
+Anexo V [Códigos da divisão administrativa do Instituto Nacional de Estatística](#anexo-v---códigos-da-divisão-administrativa-do-instituto-nacional-de-estatística)
 
-[Anexo I: Catálogo de objetos da carta de delimitação da REN
-[i](#anexo-i-catálogo-de-objetos-da-carta-de-delimitação-da-ren)](#anexo-i-catálogo-de-objetos-da-carta-de-delimitação-da-ren)
-
-[Anexo II A - Tabelas que integram a base de dados
-[iii](#anexo-ii-a---tabelas-que-integram-a-base-de-dados)](#anexo-ii-a---tabelas-que-integram-a-base-de-dados)
-
-[Anexo II B - Base de dados relacional
-[vii](#anexo-ii-b---base-de-dados-relacional)](#anexo-ii-b---base-de-dados-relacional)
-
-[Anexo III -- Boas práticas na digitalização e classificação dos objetos
-[viii](#anexo-iii-boas-práticas-na-digitalização-e-classificação-dos-objetos)](#anexo-iii-boas-práticas-na-digitalização-e-classificação-dos-objetos)
-
-[Anexo IV - Catálogo de simbologia
-[xi](#anexo-iv---catálogo-de-simbologia)](#anexo-iv---catálogo-de-simbologia)
-
-[Anexo V - Códigos da divisão administrativa do Instituto Nacional de
-Estatística
-[xix](#anexo-v---códigos-da-divisão-administrativa-do-instituto-nacional-de-estatística)](#anexo-v---códigos-da-divisão-administrativa-do-instituto-nacional-de-estatística)
+![](media/image2.jpg)
 
 # Introdução
 
-O Regime Jurídico da Reserva Ecológica Nacional (RJREN) estabelecido no
-D.L. n.º 166/2008, de 22 de agosto, republicado pelo Decreto-Lei n.º
-124/2019, de 28 de agosto, prevê dois níveis na delimitação da REN: um
-nível estratégico concretizado através orientações estratégicas
-nacionais e regionais e um nível operativo concretizado através da
-elaboração de cartas de delimitação da REN de âmbito municipal.
+O Regime Jurídico da Reserva Ecológica Nacional (RJREN) estabelecido no D.L. n.º 166/2008, de 22 de agosto, republicado pelo Decreto-Lei n.º 124/2019, de 28 de agosto, prevê dois níveis na delimitação da REN: um nível estratégico concretizado através orientações estratégicas nacionais e regionais e um nível operativo concretizado através da elaboração de cartas de delimitação da REN de âmbito municipal.
 
-As Orientações Estratégicas Nacionais e Regionais (OENR), revistas pela
-Portaria n.º 336/2019, de 26 de setembro, especificam as diretrizes e os
-critérios para a delimitação das áreas integradas na REN que são
-apresentados no Anexo I do RJREN.
+As Orientações Estratégicas Nacionais e Regionais (OENR), revistas pela Portaria n.º 336/2019, de 26 de setembro, especificam as diretrizes e os critérios para a delimitação das áreas integradas na REN que são apresentados no Anexo I do RJREN.
 
-Entre as diretrizes estabelecidas nas OENR, destaca-se a que determina a
-disponibilização no sítio da Internet da Comissão Nacional do Território
-(CNT), de normas e especificações técnicas para a produção e reprodução
-das cartas de delimitação da REN (diretriz 17).
+Entre as diretrizes estabelecidas nas OENR, destaca-se a que determina a disponibilização no sítio da Internet da Comissão Nacional do Território (CNT), de normas e especificações técnicas para a produção e reprodução das cartas de delimitação da REN (diretriz 17).
 
-As normas e especificações técnicas que a seguir se apresentam têm como
-objetivo harmonizar e estruturar a informação vetorial das cartas de
-delimitação da REN muncipal. Visam, ainda, estabelecer regras para a
-reprodução da carta em formato matricial que deve ser submetida na
-plataforma do Sistema de Submissão Automática dos Instrumentos de Gestão
-Territorial para efeitos de publicação no Diário da República e depósito
-na DGT. São compostas por 3 partes:
+As normas e especificações técnicas que a seguir se apresentam têm como objetivo harmonizar e estruturar a informação vetorial das cartas de delimitação da REN muncipal. Visam, ainda, estabelecer regras para a reprodução da carta em formato matricial que deve ser submetida na plataforma do Sistema de Submissão Automática dos Instrumentos de Gestão Territorial para efeitos de publicação no Diário da República e depósito na DGT. São compostas por 3 partes:
 
-I.  Tendo como base de partida o conteúdo da carta da REN e as
-    diretrizes para a sua delimitação previstos no RJREN e nas OENR, os
-    princípios e normas para a produção cartográfica no território
-    nacional previstos no Decreto-Lei n.º 193/95, de 28 de julho, na
-    redação do Decreto-Lei n.º 130/2019, de 30 de agosto, bem como os
-    conceitos técnicos atualizados nos domínios do ordenamento do
-    território e do urbanismo fixados pelo Decreto Regulamentar n.º
-    5/2019, de 27 de setembro, foram estabelecidos, para efeitos da
-    aplicação destas normas e especificações técnicas, os conceitos de
-    "carta base" e de "carta de delimitação da REN", bem como os
-    requisitos aplicados a cada uma.
+1.  Tendo como base de partida o conteúdo da carta da REN e as diretrizes para a sua delimitação previstos no RJREN e nas OENR, os princípios e normas para a produção cartográfica no território nacional previstos no Decreto-Lei n.º 193/95, de 28 de julho, na redação do Decreto-Lei n.º 130/2019, de 30 de agosto, bem como os conceitos técnicos atualizados nos domínios do ordenamento do território e do urbanismo fixados pelo Decreto Regulamentar n.º 5/2019, de 27 de setembro, foram estabelecidos, para efeitos da aplicação destas normas e especificações técnicas, os conceitos de "carta base" e de "carta de delimitação da REN", bem como os requisitos aplicados a cada uma.
+2. Devendo a informação da REN ser fornecida em suporte digital e formato vetorial tendo em vista a sua integração em sistemas de informação geográfica nacionais e regionais (diretriz 13 das OENR), foi desenvolvido um modelo de estruturação da informação gráfica e alfanumérica que integra o catálogo de objetos da carta de delimitação da REN, a estrutura da base de dados geográfica e um conjunto de boas práticas a utilizar na representação dos objetos.
+3. Para a reprodução da carta de delimitação da REN em formato imagem, foram definidas as regras gerais a observar na preparação de composições gráficas e na elaboração de legendas e foi desenvolvida, a título de orientação, um catálogo com a simbologia e convenções gráficas a utilizar.
 
-II. Devendo a informação da REN ser fornecida em suporte digital e
-    formato vetorial tendo em vista a sua integração em sistemas de
-    informação geográfica nacionais e regionais (diretriz 13 das OENR),
-    foi desenvolvido um modelo de estruturação da informação gráfica e
-    alfanumérica que integra o catálogo de objetos da carta de
-    delimitação da REN, a estrutura da base de dados geográfica e um
-    conjunto de boas práticas a utilizar na representação dos objetos.
+O trabalho de produção destas normas e especificações técnicas foi desenvolvido na Direção-Geral do Território, concretamente na Direção de Serviços do Ordenamento do Território e teve a colaboração dos membros do Grupo de Trabalho da REN.
 
-III. Para a reprodução da carta de delimitação da REN em formato imagem,
-     foram definidas as regras gerais a observar na preparação de
-     composições gráficas e na elaboração de legendas e foi
-     desenvolvida, a título de orientação, um catálogo com a simbologia
-     e convenções gráficas a utilizar.
+# I Objeto
 
-O trabalho de produção destas normas e especificações técnicas foi
-desenvolvido na Direção-Geral do Território, concretamente na Direção de
-Serviços do Ordenamento do Território e teve a colaboração dos membros
-do Grupo de Trabalho da REN.[  
-]{.mark}
+1.  A **carta de delimitação da REN** é a cartografia temática que representa as áreas incluídas na REN, apresentada por tipologia, e as áreas excluídas da REN, apresentadas por tipo de exclusão, numeradas e com indicação da(s) tipologia(s) abrangida(s), representadas sobre uma carta base.
 
-# I. Objeto {#i.-objeto}
-
-1.  A **carta de delimitação da REN** é a cartografia temática que
-    representa as áreas incluídas na REN, apresentada por tipologia, e
-    as áreas excluídas da REN, apresentadas por tipo de exclusão,
-    numeradas e com indicação da(s) tipologia(s) abrangida(s),
-    representadas sobre uma carta base.
-
-2.  A **carta base da REN** é a carta obtida a partir da cartografia de
-    base, oficial ou homologada, por seleção da informação relevante
-    para a elaboração da carta de delimitação da REN.
+2.  A **carta base da REN** é a carta obtida a partir da cartografia de base, oficial ou homologada, por seleção da informação relevante para a elaboração da carta de delimitação da REN.
 
 3.  São **requisitos da carta base** as seguintes:
+    1.  A carta base é obtida a partir de cartografia topográfica vetorial (que deve ter como conteúdo mínimo informação oro-hidrográfica tridimensional, redes rodoviária e ferroviária, construções e informação toponímica), sem prejuízo de poder ser utilizada cartografia topográfica de imagem (ou ortofotocartografia) desde que a mesma seja completada por informação vetorial oro-hidrográfica tridimensional, redes rodoviária e ferroviária e informação toponímica, consistente com a imagem do ponto de vista espacial e temporal.
+    2.  A exatidão posicional planimétrica da cartografia de base deve ser melhor ou igual que 5 metros e a exatidão temática deve ser melhor ou igual que 95%.
+    3.  A exatidão posicional e temática da carta base é igual à exatidão posicional e temática da cartografia de base da qual foi derivada.
+    4.  A carta base é elaborada no sistema de georreferência PT-TM06/ETRS89.
 
-    1.  A carta base é obtida a partir de cartografia topográfica
-        vetorial (que deve ter como conteúdo mínimo informação
-        oro-hidrográfica tridimensional, redes rodoviária e ferroviária,
-        construções e informação toponímica), sem prejuízo de poder ser
-        utilizada cartografia topográfica de imagem (ou
-        ortofotocartografia) desde que a mesma seja completada por
-        informação vetorial oro-hidrográfica tridimensional, redes
-        rodoviária e ferroviária e informação toponímica, consistente
-        com a imagem do ponto de vista espacial e temporal.
-
-    2.  A exatidão posicional planimétrica da cartografia de base deve
-        ser melhor ou igual que 5 metros e a exatidão temática deve ser
-        melhor ou igual que 95%.
-
-    3.  A exatidão posicional e temática da carta base é igual à
-        exatidão posicional e temática da cartografia de base da qual
-        foi derivada.
-
-    4.  A carta base é elaborada no sistema de georreferência
-        PT-TM06/ETRS89.
-
-<!-- -->
-
-4.  Os **requisitos da carta de delimitação da REN** municipal são as
-    seguintes:
-
-    1.  A carta de delimitação da REN é elaborada em suporte digital e
-        formato vetorial.
-
-    2.  A carta de delimitação da REN abrange integralmente o território
-        municipal definido pela Carta Administrativa Oficial de Portugal
-        (CAOP) publicada pela DGT e disponível no respetivo sítio da
-        Internet, devendo ser utilizada:
-
-    <!-- -->
-
-    a.  a edição da CAOP disponível à data que determina a elaboração,
-        revisão ou alteração de planos territoriais, quando a REN é
-        delimitada no âmbito destes planos (Artigo 15º do RJREN).
-
-    b.  a edição da CAOP disponível à data em que a câmara municipal
-        apresenta a proposta de delimitação da REN à CCDR (artigo 11º do
-        RJREN), quando a REN não é delimitada no âmbito de planos
-        territoriais.
-
-    <!-- -->
-
-    3.  Para além da delimitação municipal da REN e sempre que se
-        justifique, podem ser efetuadas delimitações de pormenor (por
-        exemplo área abrangida por um plano de urbanização ou pormenor,
-        por um projeto ou por uma ou mais exclusões da REN).
-
-    4.  A exatidão posicional e temática da carta de delimitação da REN
-        municipal é igual à utilizada na carta base, sendo que uma
-        delimitação de pormenor recorre a cartografia de base de maior
-        detalhe[^1] e de maior exatidão posicional e temática.
-
-    5.  A carta de delimitação da REN utiliza o sistema de
-        georreferência PT-TM06/ETRS89.
-
-    6.  A informação gráfica e alfanumérica da carta de delimitação da
-        REN é estruturada de acordo com um modelo composto pelo catálogo
-        de objetos e a base de dados geográfica.
+4.  Os **requisitos da carta de delimitação da REN** municipal são as seguintes:
+    1.  A carta de delimitação da REN é elaborada em suporte digital e formato vetorial.
+    2.  A carta de delimitação da REN abrange integralmente o território municipal definido pela Carta Administrativa Oficial de Portugal (CAOP) publicada pela DGT e disponível no respetivo sítio da Internet, devendo ser utilizada:
+        1. a edição da CAOP disponível à data que determina a elaboração, revisão ou alteração de planos territoriais, quando a REN é delimitada no âmbito destes planos (Artigo 15º do RJREN).
+        2. a edição da CAOP disponível à data em que a câmara municipal apresenta a proposta de delimitação da REN à CCDR (artigo 11º do RJREN), quando a REN não é delimitada no âmbito de planos territoriais.
+    3.  Para além da delimitação municipal da REN e sempre que se justifique, podem ser efetuadas delimitações de pormenor (por exemplo área abrangida por um plano de urbanização ou pormenor, por um projeto ou por uma ou mais exclusões da REN).
+    4.  A exatidão posicional e temática da carta de delimitação da REN municipal é igual à utilizada na carta base, sendo que uma delimitação de pormenor recorre a cartografia de base de maior detalhe[^1] e de maior exatidão posicional e temática.
+    5.  A carta de delimitação da REN utiliza o sistema de georreferência PT-TM06/ETRS89.
+    6.  A informação gráfica e alfanumérica da carta de delimitação da REN é estruturada de acordo com um modelo composto pelo catálogo de objetos e a base de dados geográfica.
 
 # II Estruturação da Informação Geográfica
 
-## 1. Catálogo de Objetos da Carta de Delimitação da REN {#catálogo-de-objetos-da-carta-de-delimitação-da-ren}
+## 1. Catálogo de Objetos da Carta de Delimitação da REN
+5.  As áreas a incluir na REN e as áreas a excluir da REN constituem as entidades a representar em cada carta de delimitação de REN municipal.
 
-5.  As áreas a incluir na REN e as áreas a excluir da REN constituem as
-    entidades a representar em cada carta de delimitação de REN
-    municipal.
+6.  A integração de áreas na REN deve ser feita de acordo com 19 tipologias, agregadas em 3 categorias, conforme se tratem de Áreas de proteção do litoral, Áreas relevantes para a sustentabilidade do ciclo hidrológico terrestre ou Áreas de prevenção de riscos naturais. A desagregação de cada uma das 19 tipologias nos seus elementos constituintes resultou na identificação de 36 entidades passíveis de representação.
 
-6.  A integração de áreas na REN deve ser feita de acordo com 19
-    tipologias, agregadas em 3 categorias, conforme se tratem de Áreas
-    de proteção do litoral, Áreas relevantes para a sustentabilidade do
-    ciclo hidrológico terrestre ou Áreas de prevenção de riscos
-    naturais. A desagregação de cada uma das 19 tipologias nos seus
-    elementos constituintes resultou na identificação de 36 entidades
-    passíveis de representação.
+7.  A necessidade de serem excluídas áreas da REN deve ser ponderada conforme se tratem de áreas com edificações legalmente licenciadas ou autorizadas ou áreas destinadas à satisfação de carências existentes em termos de habitação, atividades económicas, equipamentos e infraestruturas, a designar, por "Exclusões por compromissos - C" ou "Exclusões para satisfação de carências - E", respetivamente.
 
-7.  A necessidade de serem excluídas áreas da REN deve ser ponderada
-    conforme se tratem de áreas com edificações legalmente licenciadas
-    ou autorizadas ou áreas destinadas à satisfação de carências
-    existentes em termos de habitação, atividades económicas,
-    equipamentos e infraestruturas, a designar, por "Exclusões por
-    compromissos - C" ou "Exclusões para satisfação de carências - E",
-    respetivamente.
+8.  No Anexo I é apresentado o **Catálogo de objetos da Carta de delimitação da REN** onde cada entidade é representada virtualmente por um objeto, identificado pelo:
 
-8.  No Anexo I é apresentado o **Catálogo de objetos da Carta de
-    delimitação da REN** onde cada entidade é representada virtualmente
-    por um objeto, identificado pelo:
+    1. Tema: agregação de tipologias de áreas a incluir na REN ou áreas a excluir da REN, conforme estipulado no RJREN;
+    2. Subtema: nome da tipologia de área a incluir na REN ou do tipo de exclusão da REN, conforme estipulado no RJREN;
+    3. Nome do Objeto: designação do objeto;
+    4. Código do Objeto: identificação unívoca de cada objeto;
+    5. Legenda: texto que identifica o objeto na Legenda da simbologia da carta de delimitação da REN.
 
-<!-- -->
-
-a)  Tema: agregação de tipologias de áreas a incluir na REN ou áreas a
-    > excluir da REN, conforme estipulado no RJREN;
-
-b)  Subtema: nome da tipologia de área a incluir na REN ou do tipo de
-    > exclusão da REN, conforme estipulado no RJREN;
-
-c)  Nome do Objeto: designação do objeto;
-
-d)  Código do Objeto: identificação unívoca de cada objeto;
-
-e)  Legenda: texto que identifica o objeto na Legenda da simbologia da
-    > carta de delimitação da REN.
-
-## 2. Estrutura da Base de Dados Geográfica {#estrutura-da-base-de-dados-geográfica}
-
+## 2. Estrutura da Base de Dados Geográfica
 9.  Todos os objetos do catálogo de objetos da carta da REN possuem
     geometria que pode ser representada por uma das primitivas
     geométricas: linha ou polígono.
